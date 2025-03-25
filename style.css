@@ -71,4 +71,71 @@ li{
 #menu{
     /* all'inizio non si vede  */
     display: none;
+}                                                                       
+
+footer {
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoScuola {
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo {
+    height: 80%;
+}
+
+.info > a {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+
+.inizio {
+    height: 100vh;
+    display: flex;
+    /* se non ci stai, vai a capo  */
+    flex-wrap: wrap;
+    justify-content: center; /* centro i rettangoli nella pagina */
+    align-items: center;
+}
+
+.contenitore {
+    width: 40%;
+    background-color: lightskyblue;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animazione quando passo con il mouse sui contenitori  */
+.contenitore:hover {
+    background-color: lightsteelblue;
+    transition: 0.3s;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+/* personalizzo il riquadro del curriculum  */
+.curriculum {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.intestazione {
+    text-align: center;
 }
