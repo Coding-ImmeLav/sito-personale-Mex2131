@@ -1,231 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
 
+
 header {
-    background-color: skyblue;
+    background-color: cadetblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;
-}
-
-/* creo le classi per i font  */
-.boldonse {
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.work-sans {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 .hero {
-    background-color: cornflowerblue;
+    background-color: rosybrown;
     height: 92vh;
     display: flex;
-    justify-contenthtml {
-        /* proprietà che scrolla il sito */
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        margin: 0;
-    
-    }
-    
-    header {
-        background-color: skyblue;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 8vh;
-        padding-left: 2%;
-        padding-right: 2%;
-        color: white;
-    }
-    
-    .hero {
-        background-color: cornflowerblue;
-        height: 92vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: white;
-    }
-    
-    .boldonse {
-        font-family: "Boldonse", system-ui;
-        font-weight: 400;
-        font-style: normal;
-    }
-    
-    .work-sans {
-    font-family: "Work Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
-    li {
-        padding-top: 0,5%;
-        padding-bottom: 0,5%;
-    }
-    
-    #menu {
-        /* all'inizio non si vede */
-        display: none;
-    }
-    
-    .menu {
-        cursor: pointer;
-    }
-    
-    .menu-lista > ul > li {
-        text-align: center;
-    }
-    
-    footer {
-        height: 13vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .logoScuola {
-        height: 13vh;
-        display: flex;
-        align-items: center;
-    }
-    
-    .imglogo {
-        height: 80%;
-    }
-    
-    .info > a {
-        text-decoration: none;
-        background-color: darkcyan;
-        color: white;
-        padding: 10px 8px;
-        border-radius: 10px;
-    }
-    
-    /* seleziono i tre div dentro al footer */
-    footer > div {
-        /* specifico la larghezza dei tre div nel footer e li metto in mezzo */
-        width: 33.33333%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .inizio {
-        height: 80vh;
-        display: flex;
-        /* se non ci stai, vai a capo */
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .contenitore {
-        width: 40%;
-        background-color: lightskyblue;
-        height: 35%;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    /* animazione quando passo con il mouse sui contenitori */
-    .contenitore:hover {
-        background-color: lightsteelblue;
-        transition: 0.3s;
-    }
-    
-    .cv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    /* personalizzo il riquadro del curriculum */
-    .curriculum {
-        width: 65%;
-        padding: 20px;
-        border: 1px solid black;
-    }
-    
-    .intestazione {
-        text-align: center; 
-    }
-    
-    .fascia-download {
-        background-color: lightseagreen;
-        width: 100%;
-        height: 10vh;
-        margin-top: 3vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .bottone {
-        background-color: white;
-        color: lightseagreen;
-        font-family: "Boldonse";
-        padding: 10px 20px;
-        border-radius: 15px;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .bottone:hover {
-        background-color: lightseagreen;
-        color: white;
-        border: 1px solid white;
-    }
-    
-    .bonus {
-        height: 50vh;
-    }: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;   
+}
+
+.benvenuto {
+    font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 ul {
-    list-style: none;
+    font-style: none;
 }
 
 li {
-   padding-top: 0.5%;
-   padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 #menu {
-    /* all'inizio non si vede  */
     display: none;
-    
 }
-.menu{
-    cursor: pointer;
 
+.menu {
+    cursor: pointer;
 }
-.menu-lista
+
+.menu-lista > ul > li {
+    text-align: center;
+}
+
 
 footer {
     height: 13vh;
@@ -237,7 +64,7 @@ footer {
 .logoScuola {
     height: 13vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .imgLogo {
@@ -246,32 +73,29 @@ footer {
 
 .info > a {
     text-decoration: none;
-    background-color: darkcyan;
-    color: white;
+    background-color: beige;
+    color: cyan;
     padding: 10px 8px;
     border-radius: 10px;
 }
 
-/* seleziono i tre div dentro al footer  */
 footer > div {
-    /* specifico la larghezza dei tre div nel footer e li metto in mezzo  */
-    width: 33.33333%;
+    width: 33.3%;
     display: flex;
     justify-content: center;
 }
 
 .inizio {
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    /* se non ci stai, vai a capo  */
-    flex-wrap: wrap;
-    justify-content: center; /* centro i rettangoli nella pagina */
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contenitore {
     width: 40%;
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     height: 35%;
     margin: 30px;
     display: flex;
@@ -279,10 +103,10 @@ footer > div {
     align-items: center;
 }
 
-/* animazione quando passo con il mouse sui contenitori  */
 .contenitore:hover {
-    background-color: lightsteelblue;
+    background-color: brown;
     transition: 0.3s;
+
 }
 
 .cv {
@@ -292,49 +116,84 @@ footer > div {
     flex-direction: column;
 }
 
-/* personalizzo il riquadro del curriculum  */
 .curriculum {
-    width: 65%;     
-    padding: 20px;
+    width: 80%;
+    padding: 30px;
     border: 1px solid black;
+
+}   
+
+.garabond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
 }
 
-.intestazione {
-    text-align: center;
-}
-.fascia-download{
-    background-color: lightpink;
+
+.fascia-download {
+    background-color: lightcoral;
     width: 100%;
     height: 10vh;
     margin-top: 3vh;
     display: flex;
     justify-content: center;
-    align-items: .center;
-
+    align-items: center;
 }
-.bottone{
-    background-color: white;
-    color: lightpink;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 15px;
-    padding: 10px 20px;
 
+.bottone {
+    background-color: white;
+    color: lightcoral;
+    font-family: "Garabond";
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 a {
-    text-decoration:none ;
+    text-decoration: none;
 }
 
 .bottone:hover {
-    background-color: lightpink;
+    background-color: lightcoral;
     color: white;
-    border: 1px solid white;
+    border: 1px solid black;
 }
+
 .bonus {
-    height: 5vh;
+    height: 50vh;
 }
-.header {
-    background-color: skyblue;
+
+.testo {
+    text-align: center;
+    width: 60%; /* larghezza del div */
+}
+
+.intro-stage {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.relazione-terza {
+    display: flex;
+    background-color: lightsteelblue;
+}
+
+.sx, .dx {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.immagine {
+    width: 80%;
+    padding: 3%;
+}
+
+.relazione-seconda {
+    display: flex;
+    background-color: aquamarine;
 }
