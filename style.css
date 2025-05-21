@@ -1,13 +1,12 @@
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
-header {
+header{
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
@@ -15,10 +14,11 @@ header {
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
+    color: white;
 }
 
-.hero {
-    background-color: rosybrown;
+.hero{
+    background-color: beige;
     height: 92vh;
     display: flex;
     justify-content: center;
@@ -26,111 +26,173 @@ header {
     text-align: center;
 }
 
-.benvenuto {
-    font-family: "Kanit", sans-serif;
-  font-weight: 100;
+
+.lilitaone{
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.anton{
+
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 8px;
   font-style: normal;
 }
 
-ul {
-    font-style: none;
+ul{
+    list-style: none;
 }
 
-li {
+li{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
 
-#menu {
+#menu{
     display: none;
-}
 
-.menu {
+}
+.menu{
     cursor: pointer;
 }
 
-.menu-lista > ul > li {
+.menu-lista > ul > li{
     text-align: center;
 }
 
-
-footer {
+footer{
     height: 13vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logoScuola {
+.logoscuola{
     height: 13vh;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-
-.imgLogo {
+.imgLogo{
     height: 80%;
 }
 
 .info > a {
     text-decoration: none;
-    background-color: beige;
-    color: cyan;
+    background-color: black;
+    color: white;
     padding: 10px 8px;
     border-radius: 10px;
 }
 
+
 footer > div {
-    width: 33.3%;
+    width: 33.33333%;
     display: flex;
     justify-content: center;
 }
 
-.inizio {
+.inizio{
     height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-}
-
-.contenitore {
-    width: 40%;
-    background-color: antiquewhite;
-    height: 35%;
-    margin: 30px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contenitore:hover {
-    background-color: brown;
-    transition: 0.3s;
-
+.contenitore{
+    width: 40%;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.7)), url(img/Contenitore1.jpg);
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 60%;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.cv {
+
+
+.contenitore > h3{
+    padding: 30px;
+}
+
+.contenitore > p{
+    padding: 30px;
+    margin-top:     4%;
+}
+
+
+
+.contenitore1{
+    width: 40%;
+    background-color: aquamarine;
+    height: 60%;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contenitore2{
+    width: 40%;
+    background-color: aquamarine;
+    height: 60%;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contenitore3{
+    width: 40%;
+    background-color: aquamarine;
+    height: 60%;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* animazione mouse su contenitori */
+
+.contenitore:hover{
+    background-color: steelblue;
+    transition: 0.3s;
+}
+
+.CV{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.curriculum {
-    width: 80%;
+.curriculum{
+    width: 65%;
     padding: 30px;
     border: 1px solid black;
-
-}   
-
-.garabond {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
+    margin-top: 20%;
 }
 
+.intestazioone{
+text-align: center;
+}
 
-.fascia-download {
-    background-color: lightcoral;
+.fasciaDownload{
+    background-color: lightskyblue;
     width: 100%;
     height: 10vh;
     margin-top: 3vh;
@@ -138,35 +200,33 @@ footer > div {
     justify-content: center;
     align-items: center;
 }
-
-.bottone {
+.Bottone{
     background-color: white;
-    color: lightcoral;
-    font-family: "Garabond";
+    color: lightskyblue;
     padding: 10px 20px;
     border-radius: 15px;
+    
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-.bottone:hover {
-    background-color: lightcoral;
+.Bottone:hover{
+    background-color: lightskyblue;
     color: white;
-    border: 1px solid black;
+    border: 1px solid white;
 }
-
-.bonus {
+.bonus{
     height: 50vh;
 }
 
-.testo {
+.testo{
+    width: 60%;
     text-align: center;
-    width: 60%; /* larghezza del div */
+   
 }
-
-.intro-stage {
+.intro-stage{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,26 +234,30 @@ a {
     padding-bottom: 5%;
 }
 
-.relazione-terza {
+.relazione-terza{
     display: flex;
-    background-color: lightsteelblue;
+}
+.sx , .dx {
+width: 50%;
+padding: 5%;
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
 }
 
-.sx, .dx {
-    width: 50%;
-    padding: 5%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-}
-
-.immagine {
+.immagine{
     width: 80%;
     padding: 3%;
-}
-
-.relazione-seconda {
     display: flex;
-    background-color: aquamarine;
+    justify-content: center;
+}
+.relazione-secondo{
+    display: flex;
+    background-color: lightskyblue;
+    align-items: center;
+}
+.imag{
+    width: 110%;
+    padding: 10px;
 }
