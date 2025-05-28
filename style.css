@@ -121,6 +121,7 @@ footer > div {
     justify-content: center;
     align-items: center;
     
+
 }
 
 
@@ -138,16 +139,22 @@ footer > div {
 
 .contenitore1{
     width: 40%;
-    background-color: aquamarine;
+    background-image: url(./img/722a6096-fb69-499e-a40a-ae8513d8b284.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 60%;
     margin: 30px;
-    
+    color: white;
     justify-content: center;
     align-items: center;
+    
+
+    
 }
 .contenitore2{
     width: 40%;
-    background-color: aquamarine;
+    
+    background-image: url(./img/sfondo-di-tema-moderna-di-musica_1035-9682.avif);
     height: 60%;
     margin: 30px;
     
@@ -156,7 +163,16 @@ footer > div {
 }
 .contenitore3{
     width: 40%;
-    background-color: aquamarine;
+   background-image: url(./img/rendering-3d-manubri-neri-sul-pavimento-nella-sala-fitness-concetto-scuro-con-attrezzature-per-l-allenamento-nella-parte-posteriore_67155-14961.avif);
+    height: 60%;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contenitore4{
+    width: 40%;
+    background-image: url(./img/95e4a87c61621e7f73c3569fdfc31efe.jpg);
     height: 60%;
     margin: 30px;
     
