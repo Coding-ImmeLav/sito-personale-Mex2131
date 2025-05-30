@@ -277,3 +277,23 @@ flex-direction: column;
     width: 110%;
     padding: 10px;
 }
+
+.relazione-quarta{
+  display: flex;
+    background-color: lightskyblue;
+    align-items:center ;
+     justify-content: left;
+
+}
+
+.immag{
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+
+
